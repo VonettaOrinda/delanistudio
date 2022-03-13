@@ -4,11 +4,11 @@ html{
 }
 
 .landing{
-    background-image: url('../images/backgrounds/first.jpg');
+    background-image: url('/Images/backgrounds/first.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: black ;
+    color: white ;
     text-align: center;
     padding-top: 17%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -58,8 +58,8 @@ html{
 }
 .services{
     text-align: center;
-    background-image: url("../");
-    color: black;
+    background-image: url("/Images/backgrounds/second.jpg");
+    color: white;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
