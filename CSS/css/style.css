@@ -47,7 +47,7 @@ html{
       }
     }
     
-    
+
 .about{
     text-align: center;
     padding-bottom: 30px;
@@ -98,5 +98,53 @@ html{
   .portfolio h2{
     text-align: center;
     padding-top:40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .contact{
+      background-image: url('/Images/backgrounds/third.jpg');
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+
+  }
+
+  .title{
+    padding: 6px;
+  }
+  .contact h2{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 20px;
     font-family: 'Gabriela', serif;
   }
+  input[type=text],input[type=email],#comment{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Copse', serif;
+  }
+  
+  .form-control::-webkit-input-placeholder { 
+    color: white; 
+  }
+  #MERGE1{
+    width: 30%;
+    margin-left: 18%;
+    margin-right: 30px;
+
+}
+#MERGE0{
+  width: 30%;
+}
+#comment{
+  margin-left: 20%;
+  width: 60%;
+}
+button{
+    margin-left: 20%;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+
+}
