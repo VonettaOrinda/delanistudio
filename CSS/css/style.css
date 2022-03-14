@@ -26,13 +26,13 @@ html{
     width: 70px;
     height: 70px;
 }
-#mouse{
+#mouse-click{
     padding-top: 22px;
     margin-top: 10%;
     padding-bottom: 30px;
 }
     
-#mouse{
+#mouse-click{
     animation: bounce 2s infinite;
 }
 @keyframes bounce{
@@ -80,10 +80,15 @@ html{
     text-align: center;
     padding-top: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
 }
 .what-we-do .headings{
     padding-bottom: 38px;
+  
 }
+f
+
 #portfolio{
     display: flex;
     flex-wrap: wrap;
@@ -102,7 +107,7 @@ html{
   }
   .contact{
       background-image: url('/Images/backgrounds/third.jpg');
-      background-position: center center;
+      background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
       color: white;
@@ -178,7 +183,7 @@ footer{
     text-align: center;
     font-size: 30px;
     padding-top: 50%;
-    font-family: 'Delius Swash Caps', cursive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   @media only screen and (max-width: 755px){
     #overlay,#overlay2,#overlay3,#overlay4,#overlay5,#overlay6,#overlay7,#overlay8{
@@ -187,7 +192,7 @@ footer{
       top: 20px;
       left: 16px;
       padding-top: 20%;
-      /* font-size: 16px; */
+      
     }
     .col-md-3 img{
       width:100%px;
