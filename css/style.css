@@ -106,7 +106,7 @@ f
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   .contact{
-      background-image: url('../Images/backgrounds/third.jpg');
+      background-image: url("../Images/backgrounds/third.jpg");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
